@@ -3,7 +3,7 @@ import { RestClient } from './rest-client';
 import { DefaultLogger } from './logger';
 import { signMessage, signWsAuthenticate, WSClientConfigurableOptions, getWsUrl, WebsocketClientOptions } from './util/requestUtils';
 
-import WebSocket from 'isomorphic-ws';
+import WebSocket from "@d-fischer/isomorphic-ws";
 import WsStore from './util/WsStore';
 import { getWsAuthMessage, isWsPong } from './util/wsMessages';
 
